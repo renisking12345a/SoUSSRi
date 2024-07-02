@@ -1,0 +1,145 @@
+ body {
+    background-color: #1f2022; /* Dark background color */
+    color: #f1f1f1; /* Light text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #292a2c; /* Navbar background color */
+    color: #fff; /* Text color for navbar */
+    padding: 10px 0;
+    position: fixed; /* Fix the navbar to the top */
+    top: 0; /* Position it at the top of the viewport */
+    width: 100%; /* Set width to 100% for full width */
+    z-index: 999; /* Set a high z-index for positioning over other elements */
+    margin-bottom: 50px;
+  }
+  
+  nav ul {
+    list-style: none; /* Remove default bullet points */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center the menu items horizontally */
+  }
+  
+  nav ul li {
+    display: inline-block; /* Display menu items inline */
+    margin: 0 10px; /* Add spacing between menu items */
+  }
+  
+  nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit text color from nav */
+    padding: 10px 15px; /* Add padding for clickable area */
+  }
+  
+  nav ul li a:hover { /* Style on hover */
+    background-color: #3892d3; /* Accent color on hover */
+    color: #f1f1f1; /* Text color on hover */
+  }
+  
+  /* Other styles for hero, about, etc. (unchanged) */
+  
+  .hero, .about, .tutorials, .discord {
+    background-color: #292a2c; /* Slightly lighter background for sections */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  h1, h2, p {
+    margin: 10px 0;
+  }
+  
+  .btn {
+    background-color: #28849e; /* Accent color for buttons */
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  hr {
+    color: darkgray;
+    background-color: gray;
+  }
+  
+  .btn:hover {
+    background-color: #3892d3; /* Slightly darker on hover for buttons */
+  }
+  
+  img {
+    width: 75px; /* Adjust image width as needed */
+  }
+  
+  body {
+    background-color: #1f2022; /* Dark background color */
+    color: #f1f1f1; /* Light text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    margin-top: 20px;
+    background-color: #292a2c; /* Section background color */
+    padding: 20px 0;
+    text-align: center; /* Center the header text */
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section.tutorial {
+    background-color: #25272a; /* Slightly darker background for tutorials */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  section.tutorial h2 {
+    margin-top: 0; /* Remove top margin for better spacing */
+  }
+  
+  section.tutorial p {
+    margin-bottom: 10px; /* Add some space between paragraphs */
+  }
+  
+  ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px; /* Add spacing between list items */
+  }
+  .officers {
+    margin: 10px 0; /* Add space before and after officer list */
+    padding: 10px; /* Add padding for better separation *
+    background-color: #25272a; /* Slightly darker background for officers */
+    border-radius: 5px; /* Add rounded corners for visual interest */
+  }
+  .mafia-divisions {
+    margin: 15px 0; /* Add space before and after the paragraph */
+    padding: 10px; /* Add padding for separation */
+    background-color: #2c2d30; /* Slightly darker background for emphasis */
+    color: #fff; /* Light text color */
+    border-radius: 5px; /* Add rounded corners for visual interest */
+    font-family: sans-serif;
+  }
+  
+  .officers li {
+    font-weight: bold; /* Make officer titles bolder */
+    margin-bottom: 10px; /* Increase spacing between officers */
+  }
+  
+  
